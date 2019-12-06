@@ -332,7 +332,7 @@ object and write its ``prepare`` method to populate/alter the data any way you
 choose. For instance, a (naive) user-created ``GeoPointField`` might look
 something like::
 
-    from django.utils import six
+    import six
     from haystack import indexes
 
     class GeoPointField(indexes.CharField):

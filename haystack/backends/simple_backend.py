@@ -8,7 +8,7 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from warnings import warn
 
 from django.db.models import Q
-from django.utils import six
+import six
 
 from haystack import connections
 from haystack.backends import (

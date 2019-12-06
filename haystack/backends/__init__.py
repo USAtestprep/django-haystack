@@ -6,7 +6,7 @@ from time import time
 from django.conf import settings
 from django.db.models import Q
 from django.db.models.base import ModelBase
-from django.utils import six
+import six
 from django.utils import tree
 from django.utils.encoding import force_text
 
